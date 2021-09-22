@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e5e5e5;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.col-header {
+  width: 200px;
+  /* box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36); */
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  /* color: #fff; */
+}
+
+.logo {
+  height: 150px;
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  cursor: grab;
+}
+
+.item img {
+  width: 100px;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 150px;
+  height: 66px;
+}
+
+.progress {
+  margin-left: 26px;
+}
+
+.done {
+  margin-left: 35px;
+}
+
+.hold {
+  /* добавил картинку */
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  background-color: rgb(241, 176, 176);
+  height: 100px;
+  border-radius: 70px;
+  background-image: url('https://cdn1.iconfinder.com/data/icons/interface-travel-and-environment/64/screenshot-aim-interface-target-goal-256.png');
+  background-size: 150px 100px;
+}
